@@ -1,0 +1,85 @@
+
+body {
+    font-family: PingHei,'PingFang SC',"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu !important;
+}
+
+@media (min-width: 1024px) {
+	.less-padding {
+		padding-top: 4rem !important;
+		padding-bottom: 0 !important;
+	}
+}
+
+.no-padding {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+code[class*='language-'] {
+	white-space: pre-wrap;
+}
+
+.move-bg {
+	animation: finger 120s infinite;
+	background-position: left top;
+	background-repeat: repeat;
+	background-size: 100%;
+	background-color: black;
+	height: 130%;
+}
+
+@keyframes finger {
+	0% {
+		transform: translate(0px, 0px);
+	}
+	25% {
+		transform: translate(0px, -10%);
+	}
+	50% {
+		transform: translate(0px, 0px);
+	}
+	75% {
+		transform: translate(0px, -10%);
+	}
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+
+.text-nomal {
+	font-size: 28px !important;
+	line-height: 1.5 !important;
+}
+
+.text-subtitle {
+	font-size: 32px !important;
+	line-height: 1.5 !important;
+    font-weight: bold !important;
+}
+
+.column-box .column {
+    width: 28%;
+}
+.column-box .column h3 {
+    font-size: 36px !important;
+}
+.column-box .column ul {
+    padding-top: 20px;
+}
+.column-box .column:first-child {
+    width: 15%
+}
+.column-box .column:last-child {
+    width: 37%
+}
+.card-right-img {
+    width: 50%;
+}
+
+.page-two .flexblock.reasons li:before {
+    content: '3.' !important;
+}
+
+.speaker-note {
+    color: black;
+}
